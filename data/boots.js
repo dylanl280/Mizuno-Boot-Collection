@@ -340,7 +340,7 @@ window.BOOTS = [
     line: "Wave Cup",
     model: "Wave Cup SS",
     tier: "Made in Japan",
-    colorway: "",
+    colorway: "White / Red / Blue",
     year: 2025,
     surface: ["FG"],
     weightG: 235,
@@ -357,7 +357,7 @@ window.BOOTS = [
       "Stud placement derived from movement analysis",
       "Handcrafted in Japan"
     ],
-    description: "The heaviest boot in the collection and unapologetic about it. Full kangaroo leather, wave plate in the heel, built the way Mizuno built boots before weight became the headline number. Style code P1GA2439.",
+    description: "The heaviest boot in the collection and unapologetic about it. Full kangaroo leather, wave plate in the heel, built the way Mizuno built boots before weight became the headline number. A crest-shaped badge sits at the throat with the Runbird in blue and three red stars, and the insole carries Wave Cup and Made in Japan in gold. Style code P1GA2439.",
     notes: "",
     owned: true,
     stockPhoto: true,
