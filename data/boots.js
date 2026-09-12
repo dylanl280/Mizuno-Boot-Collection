@@ -45,7 +45,7 @@ window.BOOTS = [
       "Outrigger soleplate geometry"
     ],
     description: "The newest Neo in the collection, and the tongued build rather than the tongueless Beta. Mizuno went thinner on the forefoot leather and stiffer through the shank, chasing the brief it has chased since 1985. The Prism pack puts lava orange and volt against a white upper over a mirrored silver soleplate. Mizuno USA style 540401_0025.",
-    notes: "",
+    notes: "My mom got me these while she was in Japan. The first few times I wore them my foot was cramping. Once I finally brokem them in, they were great and noticed the thinner leather does give a closer touch. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -83,7 +83,7 @@ window.BOOTS = [
       "24-hour lasting process"
     ],
     description: "The tongued Neo IV in the heritage white, black and red — the colours the very first Morelia wore in 1985, taken from Sao Paulo FC. Chrome Runbird on the flank, red knit at the heel.",
-    notes: "",
+    notes: "My mom also got these for me while she was in Japan. I am yet to wear but the Neo IV is my favorite Mizuno boot just because the performance of it is unmatched. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -121,7 +121,7 @@ window.BOOTS = [
       "24-hour lasting process"
     ],
     description: "The same Neo IV Japan in blackout, with a silver Runbird and the red heel flash carried over. The quieter half of the Classic pairing.",
-    notes: "",
+    notes: "I ordered these last winter and they were my first pair of the non betas and this is what changed everything for me. The tradition U-throat tongue is the best in my opinion and the lockdown is great. I will alwas prefer the non beta now.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -159,7 +159,7 @@ window.BOOTS = [
       "24-hour lasting process"
     ],
     description: "Unity Sky, the celeste run of the Neo IV Japan, and the tongued build like the two Classic pairs. Gold detailing at the heel and across a pale blue soleplate, with an ultramarine collar lining. The colourway that got the most attention of the three. Style code P1GA263025.",
-    notes: "",
+    notes: "I ordered these from CleatCorner because they are one of my favorite colorways the blue one them is just eye catching. I am currently wearing these the most and have no complaints at all.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -196,7 +196,7 @@ window.BOOTS = [
       "Reconstructed studs with reduced ramp angle"
     ],
     description: "The Elite build of the fourth-generation Neo: a kangaroo leather forefoot over a synthetic frame, tongueless, well under the price of the Made in Japan. The reconstructed studs flatten the ramp between stud top and base for a cleaner bite.",
-    notes: "",
+    notes: "This was the boot that started it all for me. I was looking to repalce the Timepo Legend 10 Pearl and came acorss Mizuno. I got a blister my first time wearing them but could tell the touch was amazing. The elite does have a tighter fit but thankful for this boota as is started my Mizuno collection.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -232,7 +232,7 @@ window.BOOTS = [
       "40th anniversary construction"
     ],
     description: "The hybrid. Mizuno took the Morelia II Japan upper, the one built for fit and feel, and set it on the Neo IV's ultralight soleplate. Released for the Morelia's fortieth anniversary in a silver and gold Galaxy finish.",
-    notes: "",
+    notes: "I got these off of eBay and they are a great pair of boots. I am still indiffrent about them just because they feel like a little big but I just needed to wear thicker sock. Morelia II upper with Neo IV soleplate is so good. I need to wear these more.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -270,7 +270,7 @@ window.BOOTS = [
       "40th anniversary update"
     ],
     description: "The direct descendant of the 1985 original, updated for the Morelia's fortieth year. 205 grams, ten lighter than the model before it, and still the boot people reach for when they want the word craftsmanship to mean something.",
-    notes: "",
+    notes: "I have worn these twice maybe great boot, eventually I will get around to wearing them more. Morelia II is pure class.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -308,7 +308,7 @@ window.BOOTS = [
       "Handcrafted in Japan"
     ],
     description: "The cross-stitch build, and the reason to own this one. A lattice of stitching is worked right across the forefoot instead of the usual long seams, which is a slower job and shows. Super White Pearl leather, black patent Runbird, a red flash at the heel and Morelia in gold beneath it. Style code P1GA200209.",
-    notes: "",
+    notes: "Arguably one of my favorites boots and definitely the most beat up one. I wore these into the ground its comfort is amazing and despite being a leather the boot you get a tight feel and the lockdown is great. One of my favorites for sure.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -344,7 +344,7 @@ window.BOOTS = [
       "Handcrafted in Japan"
     ],
     description: "The Archive Pack run of the M8, leaning even harder into the throwback. Same stand-up tongue and ZeroGlide laces, dressed to look like something pulled out of the Osaka archive.",
-    notes: "",
+    notes: "Also got these from CleatCorner and the leather on this pair you can tell the quality is top notch. Very comfortable to play in and a snug fit. Morelia II M8 I have nothing but great things to say.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -384,7 +384,7 @@ window.BOOTS = [
       "Over 90% recycled content in sockliner lining and laces"
     ],
     description: "The odd one out in a collection built on kangaroo leather: no leather in it at all. The Made in Japan Alpha III adds the KaRVO RS insole board the Elite does not get. Same Prism colours as the Neo V, which makes the pair of them worth seeing side by side.",
-    notes: "",
+    notes: "My mom also got these for me in Japan. I did not ask for them but I am glad she got them I wear these in the rain as they are a synthetic boot. The upper is soft and breaks in well the comofort is surpisingly good too for a speed boot.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -424,7 +424,7 @@ window.BOOTS = [
       "Handcrafted in Japan"
     ],
     description: "The boot Shinji Okazaki wore in the last game of his career, and the heaviest pair in the collection by some way. Full kangaroo leather, wave plate in the heel, built the way Mizuno built boots before weight became the headline number. The red line is carried over from the 2012 Wave Cup SS, keeping the Samurai Soul idea intact. A crest-shaped badge sits at the throat with the Runbird in blue and three red stars, and the insole reads Wave Cup and Made in Japan in gold. Style code P1GA2439.",
-    notes: "",
+    notes: "These also came from CleatCorner. A grail pair for me and I am yet to wear them but they are amazing. I have another pair of wave cups and love those so I expect the same with these. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -459,7 +459,7 @@ window.BOOTS = [
       "Limited to 3,000 pairs worldwide"
     ],
     description: "A faithful recreation of the boot Rivaldo wore at the 2002 World Cup, made in Japan and capped at three thousand pairs worldwide. Pearlised kangaroo leather, embroidered tongue, Compact Wave in the heel. The most historically loaded pair here.",
-    notes: "",
+    notes: "CleatCorner messaged me he has these and I had to get them. My first pair of wave cups. The soleplate is agressive but not too aggresive and the snug fit on these are truly amazing. They are a classic Mizuno boot and I am glad to have them in my collection. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -503,7 +503,7 @@ window.BOOTS = [
       "Firm ground stud pattern"
     ],
     description: "A retro in the Metallic Mach Purple and Total Orange of the 2010 Tiempo Legend III Elite, right down to the fold-over tongue. The original used Kanga-Lite; this one runs TECHLEATHER.",
-    notes: "",
+    notes: "I had been eyeing the Ligera pro for a while and when I saw this colorway I had to get it. The 2010 world cup colowway is so iconic. These broke in almost immediately and the touch is great. They are super light as well",
     owned: true,
     stockPhoto: true,
     images: [
@@ -543,7 +543,7 @@ window.BOOTS = [
       "Redesigned low-top silhouette"
     ],
     description: "A special edition marking thirty years of the Tiempo, in sail with an iridescent soleplate. It is also the generation where the Tiempo stopped being a leather boot: FlyTouch Plus replaces kangaroo leather and the Legend 9's foam pods are gone entirely, which is the whole argument about this model in one sentence.",
-    notes: "",
+    notes: "I wore these boots into the ground. First pair not being made of Kangaroo Leather but they are good not as good as leather but still good. Specifically, this model is better than the actual Legend 10 because of pattern.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -585,7 +585,7 @@ window.BOOTS = [
       "Chrome-finished lightweight soleplate"
     ],
     description: "Named for the town in the Veneto where Italy has made football boots for a century, and built there. A Pirlo tribute in white and royal blue, released October 2022. SKU DQ7792-140.",
-    notes: "",
+    notes: "These are genuinely one of the most comfortable boots I have ever worn. The leather is soft and the foam pods are a nice touch. I wore these a few times and the leather is amazing you get such a clean strike every time. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -626,7 +626,7 @@ window.BOOTS = [
       "Removable insole with Poron inserts at heel and forefoot"
     ],
     description: "The lightest Legend of its era and the one that went to full kangaroo leather while still shedding weight over the Legend IV. The volt and soar colourway dates it instantly to 2014.",
-    notes: "",
+    notes: "The legeng 5 is an iconic boot and I see why they are comfortable and light. I wore these a few times and the touch is great. The leather is soft not as soft as mizuno but still a great boot.",
     owned: true,
     stockPhoto: true,
     images: [
