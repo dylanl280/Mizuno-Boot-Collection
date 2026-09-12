@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boot — Mizuno Boot Collection</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead__bar">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" data-mark></span>
+      <span class="brand__text">
+        The Collection
+        <span>Mizuno Football Boots</span>
+      </span>
+    </a>
+    <p class="masthead__count"><span data-owned-count>0 pairs</span> owned</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="crumbs" id="crumbs"></nav>
+</div>
+
+<main class="wrap">
+  <article class="detail" id="detail"></article>
+  <nav class="pager" id="pager"></nav>
+</main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox__close" id="lbClose" aria-label="Close"></button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous image"></button>
+  <img id="lbImg" alt="">
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next image"></button>
+</div>
+
+<footer class="foot wrap">
+  <p>Mizuno Boot Collection &middot; <span data-year></span></p>
+  <p>Specifications gathered from manufacturer listings and boot reviews.</p>
+</footer>
+
+<script src="data/boots.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/boot.js"></script>
+</body>
+</html>

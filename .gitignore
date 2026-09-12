@@ -1,0 +1,7 @@
+# editor
+.vscode/
+
+# os
+Thumbs.db
+.DS_Store
+desktop.ini

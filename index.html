@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mizuno Boot Collection</title>
+<meta name="description" content="A catalogue of a Mizuno football boot collection, with full specifications for every pair.">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead__bar">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" data-mark></span>
+      <span class="brand__text">
+        The Collection
+        <span>Mizuno Football Boots</span>
+      </span>
+    </a>
+    <p class="masthead__count"><span data-owned-count>0 pairs</span> owned</p>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero__inner">
+    <p class="hero__eyebrow">Est. 1985 &middot; Osaka, Japan</p>
+    <h1>Every pair, every spec, every angle.</h1>
+    <p>
+      A working catalogue of the collection. Kangaroo leather and carbon plates,
+      Made in Japan flagships and the boots that actually saw a season.
+      Click any pair to see the photographs and the full specification.
+    </p>
+  </div>
+</section>
+
+<div class="toolbar">
+  <div class="wrap">
+    <div class="toolbar__inner">
+      <div class="search">
+        <span data-search-icon></span>
+        <input id="q" type="search" placeholder="Search model, colourway, material…" autocomplete="off">
+      </div>
+
+      <div class="select">
+        <select id="view" aria-label="Which boots to show">
+          <option value="owned">My Collection</option>
+          <option value="all">Collection + Reference</option>
+          <option value="ref">Reference only</option>
+        </select>
+      </div>
+
+      <div class="select">
+        <select id="sort" aria-label="Sort by">
+          <option value="year-desc">Newest first</option>
+          <option value="year-asc">Oldest first</option>
+          <option value="weight-asc">Lightest first</option>
+          <option value="weight-desc">Heaviest first</option>
+          <option value="name">Name A–Z</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="chips" id="chips"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="results">
+    <p class="results__count" id="count"></p>
+    <button class="results__clear" id="clear" hidden>Clear filters</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="empty" id="empty" hidden>
+    <h2>Nothing matches that.</h2>
+    <p>Try a different search, or switch the view to include reference models that are not in the collection yet.</p>
+  </div>
+</main>
+
+<footer class="foot wrap">
+  <p>Mizuno Boot Collection &middot; <span data-year></span></p>
+  <p>Specifications gathered from manufacturer listings and boot reviews.</p>
+</footer>
+
+<script src="data/boots.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
