@@ -45,7 +45,7 @@ window.BOOTS = [
       "Outrigger soleplate geometry"
     ],
     description: "The newest Neo in the collection, and the tongued build rather than the tongueless Beta. Mizuno went thinner on the forefoot leather and stiffer through the shank, chasing the brief it has chased since 1985. The Prism pack puts lava orange and volt against a white upper over a mirrored silver soleplate. Mizuno USA style 540401_0025.",
-    notes: "My mom got me these while she was in Japan. The first few times I wore them my foot was cramping. Once I finally brokem them in, they were great and noticed the thinner leather does give a closer touch. ",
+    notes: "My mom got me these while she was in Japan. The first few times I wore them my foot was cramping. Once I finally broke them in, they were great and noticed the thinner leather does give a closer touch. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -121,7 +121,7 @@ window.BOOTS = [
       "24-hour lasting process"
     ],
     description: "The same Neo IV Japan in blackout, with a silver Runbird and the red heel flash carried over. The quieter half of the Classic pairing.",
-    notes: "I ordered these last winter and they were my first pair of the non betas and this is what changed everything for me. The tradition U-throat tongue is the best in my opinion and the lockdown is great. I will alwas prefer the non beta now.",
+    notes: "I ordered these last winter and they were my first pair of the non betas and this is what changed everything for me. The traditional U-throat tongue is the best in my opinion and the lockdown is great. I will always prefer the non beta now.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -196,7 +196,7 @@ window.BOOTS = [
       "Reconstructed studs with reduced ramp angle"
     ],
     description: "The Elite build of the fourth-generation Neo: a kangaroo leather forefoot over a synthetic frame, tongueless, well under the price of the Made in Japan. The reconstructed studs flatten the ramp between stud top and base for a cleaner bite.",
-    notes: "This was the boot that started it all for me. I was looking to repalce the Timepo Legend 10 Pearl and came acorss Mizuno. I got a blister my first time wearing them but could tell the touch was amazing. The elite does have a tighter fit but thankful for this boota as is started my Mizuno collection.",
+    notes: "This was the boot that started it all for me. I was looking to replace the Tiempo Legend 10 Pearl and came across Mizuno. I got a blister my first time wearing them but could tell the touch was amazing. The elite does have a tighter fit but thankful for this boot as it started my Mizuno collection.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -232,7 +232,7 @@ window.BOOTS = [
       "40th anniversary construction"
     ],
     description: "The hybrid. Mizuno took the Morelia II Japan upper, the one built for fit and feel, and set it on the Neo IV's ultralight soleplate. Released for the Morelia's fortieth anniversary in a silver and gold Galaxy finish.",
-    notes: "I got these off of eBay and they are a great pair of boots. I am still indiffrent about them just because they feel like a little big but I just needed to wear thicker sock. Morelia II upper with Neo IV soleplate is so good. I need to wear these more.",
+    notes: "I got these off of eBay and they are a great pair of boots. I am still indifferent about them just because they feel like a little big but I just needed to wear thicker sock. Morelia II upper with Neo IV soleplate is so good. I need to wear these more.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -384,7 +384,7 @@ window.BOOTS = [
       "Over 90% recycled content in sockliner lining and laces"
     ],
     description: "The odd one out in a collection built on kangaroo leather: no leather in it at all. The Made in Japan Alpha III adds the KaRVO RS insole board the Elite does not get. Same Prism colours as the Neo V, which makes the pair of them worth seeing side by side.",
-    notes: "My mom also got these for me in Japan. I did not ask for them but I am glad she got them I wear these in the rain as they are a synthetic boot. The upper is soft and breaks in well the comofort is surpisingly good too for a speed boot.",
+    notes: "My mom also got these for me in Japan. I did not ask for them but I am glad she got them I wear these in the rain as they are a synthetic boot. The upper is soft and breaks in well the comfort is surprisingly good too for a speed boot.",
     owned: true,
     stockPhoto: true,
     images: [
@@ -459,7 +459,7 @@ window.BOOTS = [
       "Limited to 3,000 pairs worldwide"
     ],
     description: "A faithful recreation of the boot Rivaldo wore at the 2002 World Cup, made in Japan and capped at three thousand pairs worldwide. Pearlised kangaroo leather, embroidered tongue, Compact Wave in the heel. The most historically loaded pair here.",
-    notes: "CleatCorner messaged me he has these and I had to get them. My first pair of wave cups. The soleplate is agressive but not too aggresive and the snug fit on these are truly amazing. They are a classic Mizuno boot and I am glad to have them in my collection. ",
+    notes: "CleatCorner messaged me he has these and I had to get them. My first pair of wave cups. The soleplate is aggressive but not too aggressive and the snug fit on these are truly amazing. They are a classic Mizuno boot and I am glad to have them in my collection. ",
     owned: true,
     stockPhoto: true,
     images: [
@@ -503,7 +503,7 @@ window.BOOTS = [
       "Firm ground stud pattern"
     ],
     description: "A retro in the Metallic Mach Purple and Total Orange of the 2010 Tiempo Legend III Elite, right down to the fold-over tongue. The original used Kanga-Lite; this one runs TECHLEATHER.",
-    notes: "I had been eyeing the Ligera pro for a while and when I saw this colorway I had to get it. The 2010 world cup colowway is so iconic. These broke in almost immediately and the touch is great. They are super light as well",
+    notes: "I had been eyeing the Ligera Pro for a while and when I saw this colorway I had to get it. The 2010 world cup colorway is so iconic. These broke in almost immediately and the touch is great. They are super light as well",
     owned: true,
     stockPhoto: true,
     images: [
@@ -626,7 +626,7 @@ window.BOOTS = [
       "Removable insole with Poron inserts at heel and forefoot"
     ],
     description: "The lightest Legend of its era and the one that went to full kangaroo leather while still shedding weight over the Legend IV. The volt and soar colourway dates it instantly to 2014.",
-    notes: "The legeng 5 is an iconic boot and I see why they are comfortable and light. I wore these a few times and the touch is great. The leather is soft not as soft as mizuno but still a great boot.",
+    notes: "The Legend 5 is an iconic boot and I see why they are comfortable and light. I wore these a few times and the touch is great. The leather is soft not as soft as Mizuno but still a great boot.",
     owned: true,
     stockPhoto: true,
     images: [
