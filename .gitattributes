@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Never line-ending-normalize photographs
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary

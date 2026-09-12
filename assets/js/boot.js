@@ -82,6 +82,11 @@
               .join("")}</div>`
           : ""
       }
+      ${
+        boot.stockPhoto && imgs.length
+          ? '<p class="gallery__note">Manufacturer product photography. Photographs of this pair to come.</p>'
+          : ""
+      }
     </div>
 
     <div class="info">

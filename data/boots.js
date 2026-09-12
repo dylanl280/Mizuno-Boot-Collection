@@ -1,34 +1,34 @@
 /* =============================================================================
-   THE COLLECTION DATA FILE
+   THE COLLECTION
    -----------------------------------------------------------------------------
    This is the only file you need to edit to change the site.
 
-   Each entry is one pair of boots. To add a pair, copy a block and change the
-   fields. To remove a pair, delete its block.
+   Each entry is one pair. To add a pair, copy a block and change the fields.
+   To remove a pair, delete its block.
 
-   images : put your photos in  images/<id>/  and list them here, e.g.
-            images: ["images/morelia-neo-iv-beta-elite/1.jpg", "..."]
-            Leave the array empty and the site draws a clean placeholder.
-
-   owned  : true  -> appears in "My Collection" (the default view)
-            false -> appears only under the Reference / Wishlist filter
-
-   notes  : your own words. Fit, condition, where you got them, why you bought
-            them. The part no spec sheet can give you.
+   images      : photos live in  images/<id>/  and are listed here in order.
+                 The first one becomes the grid thumbnail, the second shows
+                 on hover. An empty array draws a placeholder instead.
+   stockPhoto  : true when the image is manufacturer product photography
+                 rather than your own shot. Adds a small caption so the
+                 catalogue stays honest about which is which.
+   notes       : your own words. Fit, condition, where you got them, why.
+   weightG     : null when no weight is published. The row is then hidden.
 ============================================================================= */
 
 window.BOOTS = [
 
-  /* ------------------------------------------------------------- MORELIA NEO */
+  /* ========================================================== MIZUNO / MORELIA NEO */
+
   {
-    id: "morelia-neo-v-beta-japan",
+    id: "mizuno-morelia-neo-v-japan-prism",
     brand: "Mizuno",
     line: "Morelia Neo",
     model: "Morelia Neo V Beta",
     tier: "Made in Japan",
-    colorway: "",
+    colorway: "Prism — White / Lava Orange / Evening Primrose",
     year: 2026,
-    surface: ["FG", "AG"],
+    surface: ["FG"],
     weightG: 205,
     upper: "Kangaroo leather, thin-cut forefoot",
     lining: "High-density micro taffeta",
@@ -41,24 +41,118 @@ window.BOOTS = [
       "Engineered Fit Last NEO",
       "Thinner forefoot leather for closer touch",
       "Reworked midfoot and heel structure",
-      "Upgraded shank rigidity",
+      "Upgraded shank rigidity for stability",
       "Outrigger soleplate geometry"
     ],
-    description: "The fifth-generation Neo. Mizuno went thinner on the forefoot leather and stiffer through the shank, chasing the brief it has chased since 1985: barefoot feel that survives ninety minutes. Handcrafted in Japan from the first cut.",
+    description: "The newest Neo in the collection and the lightest-feeling of the Made in Japan pairs. Mizuno went thinner on the forefoot leather and stiffer through the shank, chasing the brief it has chased since 1985. The Prism pack puts lava orange and primrose against a white upper over a mirrored silver soleplate.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-neo-v-japan-prism/1.jpg"]
   },
 
   {
-    id: "morelia-neo-iv-beta-elite",
+    id: "mizuno-morelia-neo-iv-japan-classic",
+    brand: "Mizuno",
+    line: "Morelia Neo",
+    model: "Morelia Neo IV",
+    tier: "Made in Japan",
+    colorway: "Classic — White / Black / Red",
+    year: 2024,
+    surface: ["FG"],
+    weightG: 200,
+    upper: "Kangaroo leather",
+    lining: "High-density micro taffeta, suede insole surface",
+    soleplate: "Ultralight nylon with external TPU counter",
+    collar: "BareFoot KNIT NEO",
+    madeIn: "Japan",
+    retailUsd: null,
+    lastName: "Engineered Fit Last NEO",
+    tech: [
+      "BareFoot KNIT NEO opening",
+      "External heel counter, nylon over TPU",
+      "Ultralight outsole",
+      "Suede insole surface for grip",
+      "24-hour lasting process"
+    ],
+    description: "The tongued Neo IV in the heritage white, black and red — the colours the very first Morelia wore in 1985, taken from Sao Paulo FC. Chrome Runbird on the flank, red knit at the heel.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-neo-iv-japan-classic/1.jpg"]
+  },
+
+  {
+    id: "mizuno-morelia-neo-iv-japan-classic-black",
+    brand: "Mizuno",
+    line: "Morelia Neo",
+    model: "Morelia Neo IV",
+    tier: "Made in Japan",
+    colorway: "Classic — Black / Silver / Red",
+    year: 2024,
+    surface: ["FG"],
+    weightG: 200,
+    upper: "Kangaroo leather",
+    lining: "High-density micro taffeta, suede insole surface",
+    soleplate: "Ultralight nylon with external TPU counter",
+    collar: "BareFoot KNIT NEO",
+    madeIn: "Japan",
+    retailUsd: null,
+    lastName: "Engineered Fit Last NEO",
+    tech: [
+      "BareFoot KNIT NEO opening",
+      "External heel counter, nylon over TPU",
+      "Ultralight outsole",
+      "Suede insole surface for grip",
+      "24-hour lasting process"
+    ],
+    description: "The same Neo IV Japan in blackout, with a silver Runbird and the red heel flash carried over. The quieter half of the Classic pairing.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-neo-iv-japan-classic-black/1.jpg"]
+  },
+
+  {
+    id: "mizuno-morelia-neo-iv-japan-unity-sky",
+    brand: "Mizuno",
+    line: "Morelia Neo",
+    model: "Morelia Neo IV",
+    tier: "Made in Japan",
+    colorway: "Unity Sky",
+    year: 2024,
+    surface: ["FG"],
+    weightG: 200,
+    upper: "Kangaroo leather",
+    lining: "High-density micro taffeta, suede insole surface",
+    soleplate: "Ultralight nylon with external TPU counter",
+    collar: "BareFoot KNIT NEO",
+    madeIn: "Japan",
+    retailUsd: null,
+    lastName: "Engineered Fit Last NEO",
+    tech: [
+      "BareFoot KNIT NEO opening",
+      "External heel counter, nylon over TPU",
+      "Ultralight outsole",
+      "Suede insole surface for grip",
+      "24-hour lasting process"
+    ],
+    description: "Unity Sky, the pale blue run of the Neo IV Japan. Same Made in Japan construction as the Classic pairs, in the colourway that got the most attention of the three.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-neo-iv-japan-unity-sky/1.jpg"]
+  },
+
+  {
+    id: "mizuno-morelia-neo-iv-beta-elite-mugen",
     brand: "Mizuno",
     line: "Morelia Neo",
     model: "Morelia Neo IV Beta",
     tier: "Elite",
-    colorway: "Black / White",
+    colorway: "Mugen — Blue",
     year: 2024,
-    surface: ["FG", "AG"],
+    surface: ["FG"],
     weightG: 200,
     upper: "35% kangaroo leather, 65% synthetic",
     lining: "Synthetic",
@@ -73,143 +167,59 @@ window.BOOTS = [
       "External heel counter",
       "Reconstructed studs with reduced ramp angle"
     ],
-    description: "The Elite build of the fourth-generation Neo. A kangaroo leather forefoot over a synthetic frame, keeping most of the touch well under the price of the Made in Japan. The reconstructed studs flatten the ramp between stud top and base for a cleaner bite.",
+    description: "The Elite build of the fourth-generation Neo: a kangaroo leather forefoot over a synthetic frame, tongueless, well under the price of the Made in Japan. The reconstructed studs flatten the ramp between stud top and base for a cleaner bite.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-neo-iv-beta-elite-mugen/1.jpg"]
   },
 
-  {
-    id: "morelia-neo-iv-beta-japan",
-    brand: "Mizuno",
-    line: "Morelia Neo",
-    model: "Morelia Neo IV Beta",
-    tier: "Made in Japan",
-    colorway: "",
-    year: 2024,
-    surface: ["FG", "AG"],
-    weightG: 195,
-    upper: "Full kangaroo leather",
-    lining: "High-density micro taffeta",
-    soleplate: "Graded nylon",
-    collar: "Low, tongueless",
-    madeIn: "Japan",
-    retailUsd: null,
-    lastName: "Engineered Fit Last NEO",
-    tech: [
-      "Full premium kangaroo leather upper",
-      "24-hour lasting process",
-      "High-density micro taffeta lining",
-      "Graded nylon soleplate"
-    ],
-    description: "The flagship. Same silhouette as the Elite but full kangaroo leather and built in Japan, lasted for twenty-four hours so the shape is set before it ever meets a foot.",
-    notes: "",
-    owned: false,
-    images: []
-  },
+  /* ============================================================== MIZUNO / MORELIA */
 
   {
-    id: "morelia-neo-iii-beta-japan",
+    id: "mizuno-morelia-ii-dna-japan-galaxy",
     brand: "Mizuno",
-    line: "Morelia Neo",
-    model: "Morelia Neo III Beta",
+    line: "Morelia",
+    model: "Morelia DNA",
     tier: "Made in Japan",
-    colorway: "White / Black / Chinese Red",
-    year: 2020,
+    colorway: "Galaxy — Silver / Gold",
+    year: 2025,
     surface: ["FG"],
-    weightG: 190,
-    upper: "Premium kangaroo leather",
+    weightG: 205,
+    upper: "73% leather, 27% synthetic",
     lining: "High-density micro taffeta",
-    soleplate: "Nylon",
-    collar: "Barefoot Knit, tongueless",
-    madeIn: "Japan",
-    retailUsd: null,
-    lastName: "Engineered Fit Last NEO",
-    tech: [
-      "Barefoot Knit collar",
-      "Stretch beta-mesh rearfoot windows",
-      "Tongueless midfoot with thin laces",
-      "Lightweight Runbird branding",
-      "Taller toebox than the second generation"
-    ],
-    description: "The one that made people take the Beta seriously as a speed boot. 190 grams of kangaroo leather, a knit collar, and mesh windows at the heel doing the lockdown work. It breaks in with barely a jog.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  {
-    id: "morelia-neo-iii-japan",
-    brand: "Mizuno",
-    line: "Morelia Neo",
-    model: "Morelia Neo III",
-    tier: "Made in Japan",
-    colorway: "",
-    year: 2020,
-    surface: ["FG"],
-    weightG: 200,
-    upper: "Premium kangaroo leather",
-    lining: "High-density micro taffeta",
-    soleplate: "Nylon",
-    collar: "Low, conventional tongue",
-    madeIn: "Japan",
-    retailUsd: null,
-    lastName: "Engineered Fit Last NEO",
-    tech: [
-      "Full kangaroo leather upper",
-      "Conventional tongue construction",
-      "24-hour lasting process",
-      "Taller toebox"
-    ],
-    description: "The traditional cut of the third-generation Neo, with a proper tongue in place of the Beta's knit collar. For players who want the weight without the sock-like entry.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  {
-    id: "morelia-neo-ii-japan",
-    brand: "Mizuno",
-    line: "Morelia Neo",
-    model: "Morelia Neo II",
-    tier: "Made in Japan",
-    colorway: "",
-    year: 2016,
-    surface: ["FG"],
-    weightG: 185,
-    upper: "Premium kangaroo leather",
-    lining: "Micro taffeta",
-    soleplate: "Nylon",
+    soleplate: "Morelia Neo IV ultralight plate",
     collar: "Low",
     madeIn: "Japan",
     retailUsd: null,
     lastName: "Engineered Fit Last",
     tech: [
-      "Full kangaroo leather upper",
-      "Ultralight nylon soleplate",
-      "Made in Japan construction"
+      "Morelia II Japan upper over a Morelia Neo soleplate",
+      "Kangaroo leather forefoot",
+      "Ultralight Neo IV plate for stability at low weight",
+      "40th anniversary construction"
     ],
-    description: "A lightweight leather speed boot from before every brand had one. Plenty of collectors still rate the second Neo as the sweet spot of the whole line for feel.",
+    description: "The hybrid. Mizuno took the Morelia II Japan upper, the one built for fit and feel, and set it on the Neo IV's ultralight soleplate. Released for the Morelia's fortieth anniversary in a silver and gold Galaxy finish.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-ii-dna-japan-galaxy/1.webp"]
   },
 
-  /* ----------------------------------------------------------------- MORELIA */
   {
-    id: "morelia-ii-japan",
+    id: "mizuno-morelia-ii-japan-white-gold",
     brand: "Mizuno",
     line: "Morelia",
     model: "Morelia II",
     tier: "Made in Japan",
-    colorway: "Black / White",
-    year: 2018,
+    colorway: "White / Gold",
+    year: 2025,
     surface: ["FG", "AG"],
     weightG: 205,
     upper: "Authentic kangaroo leather through forefoot and midfoot",
     lining: "High-density micro taffeta, suede-lined opening",
     soleplate: "Septon, multi-surface",
-    collar: "Low, suede-lined",
+    collar: "Low, flap tongue, suede-lined",
     madeIn: "Japan",
     retailUsd: null,
     lastName: "Engineered Fit Last",
@@ -218,135 +228,85 @@ window.BOOTS = [
       "High-density micro taffeta lining controls leather stretch",
       "Septon outsole for natural and artificial grass",
       "Suede-lined cleat opening",
-      "Softer microfiber artificial leather panels"
+      "Flap tongue",
+      "40th anniversary update"
     ],
-    description: "The direct descendant of the 1985 original. 205 grams, ten lighter than the model before it, and still the boot people reach for when they want the word craftsmanship to mean something.",
+    description: "The direct descendant of the 1985 original, updated for the Morelia's fortieth year. 205 grams, ten lighter than the model before it, and still the boot people reach for when they want the word craftsmanship to mean something.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-ii-japan-white-gold/1.jpg"]
   },
 
   {
-    id: "morelia-ii-elite",
+    id: "mizuno-morelia-m8-japan-pearl-white",
     brand: "Mizuno",
     line: "Morelia",
-    model: "Morelia II",
-    tier: "Elite",
-    colorway: "",
-    year: 2021,
+    model: "Morelia M8",
+    tier: "Made in Japan",
+    colorway: "Pearl White",
+    year: 2023,
     surface: ["FG"],
-    weightG: 215,
-    upper: "Kangaroo leather forefoot with synthetic panels",
-    lining: "Micro taffeta",
-    soleplate: "Nylon",
-    collar: "Low",
-    madeIn: "Vietnam",
+    weightG: null,
+    upper: "Premium kangaroo leather",
+    lining: "High-density micro taffeta",
+    soleplate: "Septon, multi-surface",
+    collar: "Stand-up tongue",
+    madeIn: "Japan",
     retailUsd: null,
     lastName: "Engineered Fit Last",
     tech: [
-      "Kangaroo leather forefoot",
-      "Synthetic midfoot and heel panels",
-      "Nylon soleplate"
+      "Stand-up tongue in the late-1980s idiom",
+      "Mizuno ZeroGlide laces",
+      "Premium kangaroo leather upper",
+      "Handcrafted in Japan"
     ],
-    description: "The accessible Morelia II. Less premium material than the Made in Japan and a few grams heavier for it, but the shape and the stitch lines tell the same story.",
+    description: "A remake of the first Morelia II M8 colourway, the boot Hiroaki Morishima wore at the 2002 World Cup. The stand-up tongue is the tell: it reads like a boot from the late eighties, which is exactly the point.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-m8-japan-pearl-white/1.png"]
   },
 
   {
-    id: "morelia-1985",
+    id: "mizuno-morelia-m8-japan-archive",
     brand: "Mizuno",
     line: "Morelia",
-    model: "Morelia",
-    tier: "Heritage",
-    colorway: "White / Black / Red",
-    year: 1985,
+    model: "Morelia M8",
+    tier: "Made in Japan",
+    colorway: "Archive Pack",
+    year: 2023,
     surface: ["FG"],
     weightG: null,
-    upper: "Kangaroo leather",
-    lining: "Leather",
-    soleplate: "Nylon",
-    collar: "Low",
+    upper: "Premium kangaroo leather",
+    lining: "High-density micro taffeta",
+    soleplate: "Septon, multi-surface",
+    collar: "Stand-up tongue",
     madeIn: "Japan",
     retailUsd: null,
-    lastName: "Original Morelia last",
+    lastName: "Engineered Fit Last",
     tech: [
-      "First-generation kangaroo leather upper",
-      "Built to fold into a suit pocket",
-      "Original RunBird branding"
+      "Stand-up tongue in the late-1980s idiom",
+      "Mizuno ZeroGlide laces",
+      "Premium kangaroo leather upper",
+      "Handcrafted in Japan"
     ],
-    description: "Where all of it starts. Development began in 1983, after Musashi Mizushima asked Mizuno developer Toshiyasu Yasui for a boot light enough to fit in a suit pocket. Named for the Mexican city, coloured after Sao Paulo FC. By 1990, seven of Brazil's starting eleven were wearing them.",
+    description: "The Archive Pack run of the M8, leaning even harder into the throwback. Same stand-up tongue and ZeroGlide laces, dressed to look like something pulled out of the Osaka archive.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-morelia-m8-japan-archive/1.jpg"]
   },
 
-  /* ------------------------------------------------------------------- ALPHA */
-  {
-    id: "alpha-elite",
-    brand: "Mizuno",
-    line: "Alpha",
-    model: "Alpha",
-    tier: "Elite",
-    colorway: "White",
-    year: 2022,
-    surface: ["FG", "AG"],
-    weightG: 195,
-    upper: "Synthetic, leather-free",
-    lining: "Synthetic",
-    soleplate: "Nylon with triangular studs",
-    collar: "Low",
-    madeIn: "Vietnam",
-    retailUsd: 320,
-    lastName: "Engineered Fit Last NEO",
-    tech: [
-      "Mizuno Enerzy foam in the heel",
-      "Triangular stud geometry for forward propulsion",
-      "Engineered Fit Last NEO, shared with the Morelia Neo III",
-      "First leather-free Mizuno flagship"
-    ],
-    description: "Mizuno's first high-end boot with no leather in it at all, launched on Sergio Ramos in late 2022. Enerzy foam in the heel and triangular studs, aimed squarely at a speed category Mizuno had never really contested.",
-    notes: "",
-    owned: false,
-    images: []
-  },
+  /* ================================================================ MIZUNO / ALPHA */
 
   {
-    id: "alpha-japan",
-    brand: "Mizuno",
-    line: "Alpha",
-    model: "Alpha",
-    tier: "Made in Japan",
-    colorway: "",
-    year: 2022,
-    surface: ["FG"],
-    weightG: 190,
-    upper: "Synthetic, leather-free",
-    lining: "Synthetic",
-    soleplate: "Nylon with triangular studs",
-    collar: "Low",
-    madeIn: "Japan",
-    retailUsd: 320,
-    lastName: "Engineered Fit Last NEO",
-    tech: [
-      "Mizuno Enerzy foam",
-      "Triangular studs",
-      "Made in Japan construction"
-    ],
-    description: "The Japanese build of the Alpha, released alongside the Elite at the same price. Same leather-free brief, finished in Japan.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  {
-    id: "alpha-iii-elite",
+    id: "mizuno-alpha-iii-japan-prism",
     brand: "Mizuno",
     line: "Alpha",
     model: "Alpha III",
-    tier: "Elite",
-    colorway: "",
+    tier: "Made in Japan",
+    colorway: "Prism — White / Lava Orange / Evening Primrose",
     year: 2026,
     surface: ["FG"],
     weightG: 195,
@@ -354,278 +314,208 @@ window.BOOTS = [
     lining: "Knit",
     soleplate: "Plastic, triangular studs",
     collar: "Low, integrated tongue",
-    madeIn: "Vietnam",
+    madeIn: "Japan",
     retailUsd: null,
     lastName: "Engineered Fit Last NEO",
     tech: [
       "Mizuno Enerzy foam midsole",
-      "Mizuno Enerzy XP sockliner",
+      "Mizuno Enerzy XP insole",
+      "KaRVO RS insole board, exclusive to the Made in Japan build",
       "Triangular stud outsole",
-      "Precision stitching for a snug knit fit"
+      "Knit midlayer with traditional forefoot stitching",
+      "Over 90% recycled content in sockliner lining and laces"
     ],
-    description: "Third generation of the speed silo. Knit upper with the tongue built in, Enerzy in both the heel and the sockliner. Style code P1GA2662.",
+    description: "The odd one out in a collection built on kangaroo leather: no leather in it at all. The Made in Japan Alpha III adds the KaRVO RS insole board the Elite does not get. Same Prism colours as the Neo V, which makes the pair of them worth seeing side by side.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-alpha-iii-japan-prism/1.jpg"]
   },
 
-  /* ------------------------------------------------------------------ REBULA */
-  {
-    id: "rebula-cup-elite",
-    brand: "Mizuno",
-    line: "Rebula",
-    model: "Rebula Cup",
-    tier: "Elite",
-    colorway: "White / Wave Cup Blue",
-    year: 2021,
-    surface: ["FG"],
-    weightG: 205,
-    upper: "Kangaroo leather with ribbed control pods",
-    lining: "Synthetic",
-    soleplate: "Hybrid stud pattern with stabilizer studs",
-    collar: "Low",
-    madeIn: "Vietnam",
-    retailUsd: null,
-    lastName: "Rebula last",
-    tech: [
-      "Highest-grade kangaroo leather upper",
-      "Ribbed control pods at forefoot and midfoot",
-      "Diagonal midfoot groove for direction change",
-      "Hybrid stud pattern for multi-directional traction",
-      "Stabilizer studs"
-    ],
-    description: "The control boot. Ribbed pods cushion the ball on contact and a diagonal groove through the midfoot lets the soleplate follow the foot when you turn. Mizuno's answer to the Tiempo and the Copa.",
-    notes: "",
-    owned: false,
-    images: []
-  },
+  /* ============================================================= MIZUNO / WAVE CUP */
 
   {
-    id: "rebula-iii-elite",
+    id: "mizuno-wave-cup-ss-japan",
     brand: "Mizuno",
-    line: "Rebula",
-    model: "Rebula III",
-    tier: "Elite",
-    colorway: "Black / Silver",
-    year: 2019,
-    surface: ["FG"],
-    weightG: 230,
-    upper: "Synthetic with control texture",
-    lining: "Synthetic",
-    soleplate: "Nylon, hybrid studs",
-    collar: "Low",
-    madeIn: "Vietnam",
-    retailUsd: null,
-    lastName: "Rebula last",
-    tech: [
-      "Textured control upper",
-      "Hybrid stud configuration",
-      "Reinforced midfoot"
-    ],
-    description: "The synthetic control option in the Rebula family, sold in colourways like Tokyo Nights and Cyber that leaned harder into the aesthetic than the spec sheet did.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  /* --------------------------------------------------------------- MONARCIDA */
-  {
-    id: "monarcida-neo-ii-select",
-    brand: "Mizuno",
-    line: "Monarcida",
-    model: "Monarcida Neo II",
-    tier: "Select",
-    colorway: "Black",
-    year: 2021,
-    surface: ["FG"],
-    weightG: 200,
-    upper: "Artificial leather",
-    lining: "Synthetic",
-    soleplate: "Synthetic",
-    collar: "Low",
-    madeIn: "Vietnam",
-    retailUsd: null,
-    lastName: "Standard last",
-    tech: [
-      "Leather-feel artificial upper",
-      "Stitched forefoot strike zone",
-      "Slight upper stretch to suit varied foot shapes"
-    ],
-    description: "The workhorse. A synthetic upper with a leather-like hand and stitching across the forefoot that gives it a real strike zone. The entry point into the range, and the pair most people actually log miles in.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  {
-    id: "monarcida-neo-iii-select",
-    brand: "Mizuno",
-    line: "Monarcida",
-    model: "Monarcida Neo III",
-    tier: "Select",
-    colorway: "",
-    year: 2024,
-    surface: ["FG"],
-    weightG: 210,
-    upper: "Artificial leather",
-    lining: "Synthetic",
-    soleplate: "Synthetic",
-    collar: "Low",
-    madeIn: "Vietnam",
-    retailUsd: null,
-    lastName: "Standard last",
-    tech: [
-      "Updated artificial leather upper",
-      "Revised forefoot stitching",
-      "Firm ground stud pattern"
-    ],
-    description: "Third generation of the everyday Monarcida, carrying the same brief forward: Morelia lines and Morelia stitching at a price that does not hurt.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  /* ------------------------------------------------------------ WAVE IGNITUS */
-  {
-    id: "wave-ignitus-4-japan",
-    brand: "Mizuno",
-    line: "Wave Ignitus",
-    model: "Wave Ignitus 4",
+    line: "Wave Cup",
+    model: "Wave Cup SS",
     tier: "Made in Japan",
-    colorway: "Cyber Yellow / Black",
-    year: 2015,
-    surface: ["FG"],
-    weightG: 230,
-    upper: "Kangaroo leather",
-    lining: "Micro taffeta",
-    soleplate: "Nylon with Wave heel plate",
-    collar: "Low",
-    madeIn: "Japan",
-    retailUsd: 240,
-    lastName: "Ignitus last",
-    tech: [
-      "Cushion Control area at instep and forefoot",
-      "Half-and-half upper design",
-      "Mizuno Wave plate in the heel"
-    ],
-    description: "The power boot. A split upper with a dedicated cushion control zone across the instep, built for players who strike the ball hard and often. It arrived three years after the third generation and closed the line out.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  {
-    id: "wave-ignitus-4-fg",
-    brand: "Mizuno",
-    line: "Wave Ignitus",
-    model: "Wave Ignitus 4",
-    tier: "Standard",
-    colorway: "White / Black",
-    year: 2015,
-    surface: ["FG"],
-    weightG: 240,
-    upper: "Synthetic",
-    lining: "Synthetic",
-    soleplate: "Nylon with Wave heel plate",
-    collar: "Low",
-    madeIn: "Vietnam",
-    retailUsd: 210,
-    lastName: "Ignitus last",
-    tech: [
-      "Cushion Control area",
-      "Synthetic upper",
-      "Mizuno Wave plate in the heel"
-    ],
-    description: "The synthetic Ignitus 4, ten grams up on the kangaroo leather version and thirty dollars down. Same cushion control concept across the strike zone.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  /* -------------------------------------------------------- SUPERSONIC WAVE */
-  {
-    id: "supersonic-wave-md",
-    brand: "Mizuno",
-    line: "Supersonic Wave",
-    model: "Supersonic Wave",
-    tier: "Standard",
-    colorway: "Pearl / Black / Gold",
-    year: 2010,
-    surface: ["FG"],
-    weightG: 215,
-    upper: "Kangaroo leather",
-    lining: "Suede collar lining",
-    soleplate: "Nylon with Wave heel configuration",
-    collar: "Low",
-    madeIn: "Japan",
-    retailUsd: null,
-    lastName: "Supersonic last",
-    tech: [
-      "Mizuno Wave heel configuration",
-      "Dual-density studs",
-      "Suede collar lining"
-    ],
-    description: "Built for playmakers. 215 grams of kangaroo leather with the Wave plate in the heel for stability, in a pearl and gold finish that has dated beautifully.",
-    notes: "",
-    owned: false,
-    images: []
-  },
-
-  {
-    id: "supersonic-wave-ii",
-    brand: "Mizuno",
-    line: "Supersonic Wave",
-    model: "Supersonic Wave II",
-    tier: "Standard",
-    colorway: "Pearl / Blue / Black",
-    year: 2011,
+    colorway: "",
+    year: 2025,
     surface: ["FG"],
     weightG: 235,
-    upper: "Kangaroo leather",
-    lining: "Suede collar lining",
-    soleplate: "Nylon, 80 gram outsole",
+    upper: "Kangaroo leather across the full upper, including beneath the Runbird",
+    lining: "Micro taffeta",
+    soleplate: "Nylon with Mizuno Wave heel plate",
     collar: "Low",
     madeIn: "Japan",
     retailUsd: null,
-    lastName: "Supersonic last",
+    lastName: "Wave Cup last",
     tech: [
-      "80 gram outsole, 40 grams under the Nike CTR360 of the day",
-      "Mizuno Wave heel configuration",
-      "Dual-density studs"
+      "Mizuno Wave plate in the heel to limit lateral movement and absorb shock",
+      "Kangaroo leather beneath the Runbird line, not just around it",
+      "Stud placement derived from movement analysis",
+      "Handcrafted in Japan"
     ],
-    description: "The second Supersonic, remembered mostly for its outsole: 80 grams, a full 40 under the control boot everyone else was wearing that season.",
+    description: "The heaviest boot in the collection and unapologetic about it. Full kangaroo leather, wave plate in the heel, built the way Mizuno built boots before weight became the headline number. Style code P1GA2439.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-wave-cup-ss-japan/1.webp"]
   },
 
   {
-    id: "supersonic-wave-3",
+    id: "mizuno-wave-cup-legend-blue",
     brand: "Mizuno",
-    line: "Supersonic Wave",
-    model: "Supersonic Wave 3",
-    tier: "Standard",
-    colorway: "",
-    year: 2012,
+    line: "Wave Cup",
+    model: "Wave Cup Legend",
+    tier: "Made in Japan",
+    colorway: "Blue / White",
+    year: 2018,
     surface: ["FG"],
-    weightG: 265,
-    upper: "Highest-grade kangaroo leather",
-    lining: "Suede collar lining",
-    soleplate: "Nylon with Wave heel configuration",
-    collar: "Low",
+    weightG: 205,
+    upper: "Pearlised Scotchgard kangaroo leather",
+    lining: "Micro taffeta",
+    soleplate: "Septon with Compact Wave heel",
+    collar: "Low, embroidered tongue",
     madeIn: "Japan",
     retailUsd: null,
-    lastName: "Supersonic last",
+    lastName: "Wave Cup last",
     tech: [
-      "Feather Touch System low-rebound forefoot sponge",
-      "Mizuno Wave heel configuration",
-      "Dual-density studs",
-      "Suede collar lining"
+      "Compact Wave in the heel for cushioning and shock reduction",
+      "Pearlised kangaroo leather with water-repellent Scotchgard finish",
+      "Embroidered tongue",
+      "Septon outsole",
+      "Limited to 3,000 pairs worldwide"
     ],
-    description: "The heaviest of the three and the most technical. The Feather Touch System put low-rebound sponge across the forefoot to deaden the ball while dribbling at speed.",
+    description: "A faithful recreation of the boot Rivaldo wore at the 2002 World Cup, made in Japan and capped at three thousand pairs worldwide. Pearlised kangaroo leather, embroidered tongue, Compact Wave in the heel. The most historically loaded pair here.",
     notes: "",
-    owned: false,
-    images: []
+    owned: true,
+    stockPhoto: true,
+    images: ["images/mizuno-wave-cup-legend-blue/1.jpg"]
+  },
+
+  /* ================================================================== NIKE / TIEMPO */
+
+  {
+    id: "nike-tiempo-ligera-pro-2010-wc",
+    brand: "Nike",
+    line: "Tiempo",
+    model: "Tiempo Ligera Pro",
+    tier: "2010 World Cup",
+    colorway: "Metallic Mach Purple / Total Orange",
+    year: 2026,
+    surface: ["FG"],
+    weightG: null,
+    upper: "Nike TECHLEATHER synthetic",
+    lining: "Synthetic",
+    soleplate: "Nylon, firm ground",
+    collar: "Fold-over tongue",
+    madeIn: "Vietnam",
+    retailUsd: 150,
+    lastName: "Tiempo last",
+    tech: [
+      "TECHLEATHER upper, Nike's synthetic alternative to kangaroo leather",
+      "Classic fold-over tongue",
+      "Firm ground stud pattern"
+    ],
+    description: "A retro in the Metallic Mach Purple and Total Orange of the 2010 Tiempo Legend III Elite, right down to the fold-over tongue. The original used Kanga-Lite; this one runs TECHLEATHER.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/nike-tiempo-ligera-pro-2010-wc/1.jpg"]
+  },
+
+  {
+    id: "nike-tiempo-legend-10-pearl",
+    brand: "Nike",
+    line: "Tiempo",
+    model: "Tiempo Legend 10",
+    tier: "Elite",
+    colorway: "Pearl",
+    year: 2023,
+    surface: ["FG"],
+    weightG: 195,
+    upper: "Nike FlyTouch Plus synthetic over Flyknit",
+    lining: "Flyknit",
+    soleplate: "Nylon, firm ground",
+    collar: "Low",
+    madeIn: "Vietnam",
+    retailUsd: null,
+    lastName: "Tiempo last",
+    tech: [
+      "FlyTouch Plus upper that moulds without stretching out",
+      "Flyknit construction for an adaptive fit",
+      "Foam pods of the Legend 9 removed for a closer touch",
+      "Redesigned low-top silhouette"
+    ],
+    description: "The generation where the Tiempo stopped being a leather boot. FlyTouch Plus replaces kangaroo leather and the Legend 9's foam pods are gone entirely, which is the whole argument about this model in one sentence.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/nike-tiempo-legend-10-pearl/1.jpg"]
+  },
+
+  {
+    id: "nike-tiempo-legend-9-montebelluna",
+    brand: "Nike",
+    line: "Tiempo",
+    model: "Tiempo Legend 9",
+    tier: "Elite Made in Italy",
+    colorway: "Montebelluna — White / Game Royal / Metallic Silver",
+    year: 2022,
+    surface: ["FG"],
+    weightG: null,
+    upper: "Italian kangaroo leather, embossed, with foam pods",
+    lining: "Adaptive mesh tongue",
+    soleplate: "Chrome-finished, conical and bladed studs",
+    collar: "Low",
+    madeIn: "Italy",
+    retailUsd: 230,
+    lastName: "Tiempo last",
+    tech: [
+      "Italian-crafted kangaroo leather with embossed detailing",
+      "Integrated foam pods for strike precision",
+      "Micro-perforated medial panel for breathability",
+      "Deco stitching throughout the upper",
+      "Montebelluna crest at each heel",
+      "Chrome-finished lightweight soleplate"
+    ],
+    description: "Named for the town in the Veneto where Italy has made football boots for a century, and built there. A Pirlo tribute in white and royal blue, released October 2022. SKU DQ7792-140.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/nike-tiempo-legend-9-montebelluna/1.jpg"]
+  },
+
+  {
+    id: "nike-tiempo-legend-5-white-volt",
+    brand: "Nike",
+    line: "Tiempo",
+    model: "Tiempo Legend V",
+    tier: "Elite",
+    colorway: "White / Volt / Soar / Black",
+    year: 2014,
+    surface: ["FG"],
+    weightG: null,
+    upper: "Full kangaroo leather with Nike ACC",
+    lining: "Synthetic, KangaLite heel",
+    soleplate: "Nylon, firm ground",
+    collar: "Low",
+    madeIn: "Indonesia",
+    retailUsd: null,
+    lastName: "Tiempo last",
+    tech: [
+      "Full kangaroo leather upper, a first for the Legend line",
+      "Nike ACC for consistent touch in the wet",
+      "KangaLite heel for stability and durability",
+      "Removable insole with Poron inserts at heel and forefoot"
+    ],
+    description: "The lightest Legend of its era and the one that went to full kangaroo leather while still shedding weight over the Legend IV. The volt and soar colourway dates it instantly to 2014.",
+    notes: "",
+    owned: true,
+    stockPhoto: true,
+    images: ["images/nike-tiempo-legend-5-white-volt/1.jpg"]
   }
 
 ];

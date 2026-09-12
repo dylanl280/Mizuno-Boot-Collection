@@ -7,6 +7,7 @@
 
   const els = {
     q: $("#q"),
+    brand: $("#brand"),
     view: $("#view"),
     sort: $("#sort"),
     chips: $("#chips"),
@@ -16,10 +17,17 @@
     empty: $("#empty"),
   };
 
-  const state = { q: "", view: "owned", sort: "year-desc", lines: new Set() };
+  const state = { q: "", brand: "", view: "owned", sort: "year-desc", lines: new Set() };
 
   mountChrome();
   $("[data-search-icon]").innerHTML = ICON.search;
+
+  /* Brand options come from the data, so a new brand needs no code change. */
+  [...new Set(BOOTS.map((b) => b.brand))].sort().forEach((brand) => {
+    const o = document.createElement("option");
+    o.value = o.textContent = brand;
+    els.brand.appendChild(o);
+  });
 
   /* If nothing is marked owned yet, open on the full catalogue so the page
      is never blank on a fresh clone. */
@@ -50,6 +58,10 @@
     return state.lines.size === 0 || state.lines.has(b.line);
   }
 
+  function byBrand(b) {
+    return !state.brand || b.brand === state.brand;
+  }
+
   function sorted(list) {
     const big = 1e9;
     const arr = list.slice();
@@ -70,9 +82,15 @@
   /* ---------- chips ---------- */
 
   function renderChips() {
-    /* Counts reflect the current view so the numbers never lie. */
-    const pool = BOOTS.filter(byView);
-    const lines = [...new Set(BOOTS.map((b) => b.line))].sort();
+    /* Counts reflect the current view and brand so the numbers never lie,
+       and a line with nothing behind it drops out of the row entirely. */
+    const pool = BOOTS.filter(byView).filter(byBrand);
+    const lines = [...new Set(pool.map((b) => b.line))].sort();
+
+    /* A line filter left over from another brand would hide everything. */
+    [...state.lines].forEach((l) => {
+      if (!lines.includes(l)) state.lines.delete(l);
+    });
 
     els.chips.innerHTML = lines
       .map((line) => {
@@ -90,7 +108,9 @@
   function render() {
     renderChips();
 
-    const list = sorted(BOOTS.filter(byView).filter(byLine).filter(byQuery));
+    const list = sorted(
+      BOOTS.filter(byView).filter(byBrand).filter(byLine).filter(byQuery)
+    );
 
     els.grid.innerHTML = list.map(cardMarkup).join("");
     els.empty.hidden = list.length > 0;
@@ -99,12 +119,14 @@
     els.count.textContent =
       list.length === 1 ? `1 ${label}` : `${list.length} ${label}s`;
 
-    const dirty = state.q || state.lines.size || state.sort !== "year-desc";
+    const dirty =
+      state.q || state.brand || state.lines.size || state.sort !== "year-desc";
     els.clear.hidden = !dirty;
 
     /* Keep the URL shareable. */
     const p = new URLSearchParams();
     if (state.q) p.set("q", state.q);
+    if (state.brand) p.set("brand", state.brand);
     if (state.view !== "owned") p.set("view", state.view);
     if (state.lines.size) p.set("line", [...state.lines].join(","));
     if (state.sort !== "year-desc") p.set("sort", state.sort);
@@ -124,6 +146,11 @@
       state.q = els.q.value.trim().toLowerCase();
       render();
     }, 120);
+  });
+
+  els.brand.addEventListener("change", () => {
+    state.brand = els.brand.value;
+    render();
   });
 
   els.view.addEventListener("change", () => {
@@ -146,9 +173,11 @@
 
   els.clear.addEventListener("click", () => {
     state.q = "";
+    state.brand = "";
     state.lines.clear();
     state.sort = "year-desc";
     els.q.value = "";
+    els.brand.value = "";
     els.sort.value = "year-desc";
     render();
   });
@@ -157,6 +186,7 @@
 
   const p = new URLSearchParams(location.search);
   if (p.get("q")) { state.q = p.get("q").toLowerCase(); els.q.value = p.get("q"); }
+  if (p.get("brand")) { state.brand = p.get("brand"); els.brand.value = state.brand; }
   if (p.get("view")) { state.view = p.get("view"); els.view.value = state.view; }
   if (p.get("sort")) { state.sort = p.get("sort"); els.sort.value = state.sort; }
   if (p.get("line")) p.get("line").split(",").filter(Boolean).forEach((l) => state.lines.add(l));

@@ -333,16 +333,22 @@ button { font: inherit; cursor: pointer; }
 .card__media {
   position: relative;
   aspect-ratio: 4 / 3;
-  background: var(--ground);
+  /* White, because the product shots are cut out on white and any tint
+     would show their edges as a visible rectangle. */
+  background: #fff;
+  border: 1px solid var(--line-soft);
   border-radius: var(--radius);
   overflow: hidden;
   margin-bottom: 14px;
 }
 
+/* Product photography arrives at every aspect ratio and is usually shot on
+   white, so fit the whole boot in the frame rather than cropping it. */
 .card__media img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 10px;
   transition: opacity .25s ease, transform .5s ease;
 }
 
@@ -502,7 +508,8 @@ button { font: inherit; cursor: pointer; }
 .stage {
   position: relative;
   aspect-ratio: 4 / 3;
-  background: var(--ground);
+  background: #fff;
+  border: 1px solid var(--line-soft);
   border-radius: var(--radius);
   overflow: hidden;
 }
@@ -510,7 +517,8 @@ button { font: inherit; cursor: pointer; }
 .stage img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 20px;
 }
 
 .stage__nav {
@@ -564,15 +572,22 @@ button { font: inherit; cursor: pointer; }
   aspect-ratio: 1;
   border-radius: var(--radius);
   overflow: hidden;
-  border: 2px solid transparent;
-  background: var(--ground);
+  border: 2px solid var(--line-soft);
+  background: #fff;
   padding: 0;
   transition: border-color .14s ease;
 }
 
-.thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb img { width: 100%; height: 100%; object-fit: contain; padding: 5px; }
 .thumb:hover { border-color: var(--line); }
 .thumb[aria-current="true"] { border-color: var(--navy); }
+
+.gallery__note {
+  margin: 12px 0 0;
+  font-size: 12px;
+  color: #9aa3b2;
+  letter-spacing: .01em;
+}
 
 /* ------------- info column ------------- */
 
@@ -712,7 +727,7 @@ button { font: inherit; cursor: pointer; }
   background: var(--ground);
 }
 
-.pager__thumb img { width: 100%; height: 100%; object-fit: cover; }
+.pager__thumb img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
 .pager__dir {
   font-size: 10px;
   letter-spacing: .16em;
