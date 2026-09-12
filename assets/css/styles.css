@@ -503,7 +503,7 @@ button { font: inherit; cursor: pointer; }
 
 /* ------------- gallery ------------- */
 
-.gallery { position: sticky; top: 92px; }
+.gallery { position: sticky; top: 92px; min-width: 0; }
 
 .stage {
   position: relative;
@@ -804,7 +804,9 @@ button { font: inherit; cursor: pointer; }
 /* ------------------------------------------------- responsive */
 
 @media (max-width: 960px) {
-  .detail { grid-template-columns: 1fr; gap: 34px; }
+  /* minmax(0, 1fr), not 1fr: a bare 1fr track refuses to shrink below its
+     content, so the scrolling thumbnail rail would widen the whole page. */
+  .detail { grid-template-columns: minmax(0, 1fr); gap: 34px; }
   .gallery { position: static; }
 }
 

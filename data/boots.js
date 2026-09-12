@@ -48,7 +48,14 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-neo-v-japan-prism/1.jpg"]
+    images: [
+      "images/mizuno-morelia-neo-v-japan-prism/1.jpg",
+      "images/mizuno-morelia-neo-v-japan-prism/2.jpg",
+      "images/mizuno-morelia-neo-v-japan-prism/3.jpg",
+      "images/mizuno-morelia-neo-v-japan-prism/4.jpg",
+      "images/mizuno-morelia-neo-v-japan-prism/5.jpg",
+      "images/mizuno-morelia-neo-v-japan-prism/6.jpg"
+    ]
   },
 
   {
@@ -79,7 +86,14 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-neo-iv-japan-classic/1.jpg"]
+    images: [
+      "images/mizuno-morelia-neo-iv-japan-classic/1.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic/2.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic/3.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic/4.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic/5.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic/6.jpg"
+    ]
   },
 
   {
@@ -110,23 +124,30 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-neo-iv-japan-classic-black/1.jpg"]
+    images: [
+      "images/mizuno-morelia-neo-iv-japan-classic-black/1.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic-black/2.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic-black/3.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic-black/4.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic-black/5.jpg",
+      "images/mizuno-morelia-neo-iv-japan-classic-black/6.jpg"
+    ]
   },
 
   {
     id: "mizuno-morelia-neo-iv-japan-unity-sky",
     brand: "Mizuno",
     line: "Morelia Neo",
-    model: "Morelia Neo IV",
+    model: "Morelia Neo IV Beta",
     tier: "Made in Japan",
-    colorway: "Unity Sky",
+    colorway: "Unity Sky — Celeste / White / Ultramarine",
     year: 2024,
     surface: ["FG"],
-    weightG: 200,
-    upper: "Kangaroo leather",
+    weightG: 195,
+    upper: "Ultra-thin Japanese kangaroo leather",
     lining: "High-density micro taffeta, suede insole surface",
-    soleplate: "Ultralight nylon with external TPU counter",
-    collar: "BareFoot KNIT NEO",
+    soleplate: "Dual-density ultralight nylon with external TPU counter",
+    collar: "BareFoot KNIT NEO, tongueless",
     madeIn: "Japan",
     retailUsd: null,
     lastName: "Engineered Fit Last NEO",
@@ -137,7 +158,7 @@ window.BOOTS = [
       "Suede insole surface for grip",
       "24-hour lasting process"
     ],
-    description: "Unity Sky, the pale blue run of the Neo IV Japan. Same Made in Japan construction as the Classic pairs, in the colourway that got the most attention of the three.",
+    description: "Unity Sky, the celeste run of the Neo IV Beta Japan, and the tongueless cut rather than the Classic pairs' flap. Gold detailing at the heel and along a pale blue soleplate. The colourway that got the most attention of the three.",
     notes: "",
     owned: true,
     stockPhoto: true,
@@ -150,7 +171,7 @@ window.BOOTS = [
     line: "Morelia Neo",
     model: "Morelia Neo IV Beta",
     tier: "Elite",
-    colorway: "Mugen — Blue",
+    colorway: "Mugen — White / Laser Blue",
     year: 2024,
     surface: ["FG"],
     weightG: 200,
@@ -171,7 +192,12 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-neo-iv-beta-elite-mugen/1.jpg"]
+    images: [
+      "images/mizuno-morelia-neo-iv-beta-elite-mugen/1.jpg",
+      "images/mizuno-morelia-neo-iv-beta-elite-mugen/2.jpg",
+      "images/mizuno-morelia-neo-iv-beta-elite-mugen/3.jpg",
+      "images/mizuno-morelia-neo-iv-beta-elite-mugen/4.jpg"
+    ]
   },
 
   /* ============================================================== MIZUNO / MORELIA */
@@ -235,7 +261,14 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-ii-japan-white-gold/1.jpg"]
+    images: [
+      "images/mizuno-morelia-ii-japan-white-gold/1.jpg",
+      "images/mizuno-morelia-ii-japan-white-gold/2.jpg",
+      "images/mizuno-morelia-ii-japan-white-gold/3.jpg",
+      "images/mizuno-morelia-ii-japan-white-gold/4.jpg",
+      "images/mizuno-morelia-ii-japan-white-gold/5.jpg",
+      "images/mizuno-morelia-ii-japan-white-gold/6.jpg"
+    ]
   },
 
   {
@@ -329,7 +362,14 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-alpha-iii-japan-prism/1.jpg"]
+    images: [
+      "images/mizuno-alpha-iii-japan-prism/1.jpg",
+      "images/mizuno-alpha-iii-japan-prism/2.jpg",
+      "images/mizuno-alpha-iii-japan-prism/3.jpg",
+      "images/mizuno-alpha-iii-japan-prism/4.jpg",
+      "images/mizuno-alpha-iii-japan-prism/5.jpg",
+      "images/mizuno-alpha-iii-japan-prism/6.jpg"
+    ]
   },
 
   /* ============================================================= MIZUNO / WAVE CUP */
@@ -392,7 +432,20 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-wave-cup-legend-blue/1.jpg"]
+    images: [
+      "images/mizuno-wave-cup-legend-blue/1.jpg",
+      "images/mizuno-wave-cup-legend-blue/2.jpg",
+      "images/mizuno-wave-cup-legend-blue/3.jpg",
+      "images/mizuno-wave-cup-legend-blue/4.jpg",
+      "images/mizuno-wave-cup-legend-blue/5.jpg",
+      "images/mizuno-wave-cup-legend-blue/6.jpg",
+      "images/mizuno-wave-cup-legend-blue/7.jpg",
+      "images/mizuno-wave-cup-legend-blue/8.jpg",
+      "images/mizuno-wave-cup-legend-blue/9.jpg",
+      "images/mizuno-wave-cup-legend-blue/10.jpg",
+      "images/mizuno-wave-cup-legend-blue/11.jpg",
+      "images/mizuno-wave-cup-legend-blue/12.jpg"
+    ]
   },
 
   /* ================================================================== NIKE / TIEMPO */
@@ -403,7 +456,7 @@ window.BOOTS = [
     line: "Tiempo",
     model: "Tiempo Ligera Pro",
     tier: "2010 World Cup",
-    colorway: "Metallic Mach Purple / Total Orange",
+    colorway: "Bleached Lilac / Total Orange / Black",
     year: 2026,
     surface: ["FG"],
     weightG: null,
@@ -423,7 +476,17 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/nike-tiempo-ligera-pro-2010-wc/1.jpg"]
+    images: [
+      "images/nike-tiempo-ligera-pro-2010-wc/1.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/2.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/3.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/4.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/5.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/6.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/7.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/8.jpg",
+      "images/nike-tiempo-ligera-pro-2010-wc/9.jpg"
+    ]
   },
 
   {
@@ -431,9 +494,9 @@ window.BOOTS = [
     brand: "Nike",
     line: "Tiempo",
     model: "Tiempo Legend 10",
-    tier: "Elite",
-    colorway: "Pearl",
-    year: 2023,
+    tier: "Elite SE",
+    colorway: "Pearl — Sail / Dark Atomic Teal",
+    year: 2024,
     surface: ["FG"],
     weightG: 195,
     upper: "Nike FlyTouch Plus synthetic over Flyknit",
@@ -441,7 +504,7 @@ window.BOOTS = [
     soleplate: "Nylon, firm ground",
     collar: "Low",
     madeIn: "Vietnam",
-    retailUsd: null,
+    retailUsd: 230,
     lastName: "Tiempo last",
     tech: [
       "FlyTouch Plus upper that moulds without stretching out",
@@ -449,11 +512,21 @@ window.BOOTS = [
       "Foam pods of the Legend 9 removed for a closer touch",
       "Redesigned low-top silhouette"
     ],
-    description: "The generation where the Tiempo stopped being a leather boot. FlyTouch Plus replaces kangaroo leather and the Legend 9's foam pods are gone entirely, which is the whole argument about this model in one sentence.",
+    description: "A special edition marking thirty years of the Tiempo, in sail with an iridescent soleplate. It is also the generation where the Tiempo stopped being a leather boot: FlyTouch Plus replaces kangaroo leather and the Legend 9's foam pods are gone entirely, which is the whole argument about this model in one sentence.",
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/nike-tiempo-legend-10-pearl/1.jpg"]
+    images: [
+      "images/nike-tiempo-legend-10-pearl/1.jpg",
+      "images/nike-tiempo-legend-10-pearl/2.jpg",
+      "images/nike-tiempo-legend-10-pearl/3.jpg",
+      "images/nike-tiempo-legend-10-pearl/4.jpg",
+      "images/nike-tiempo-legend-10-pearl/5.jpg",
+      "images/nike-tiempo-legend-10-pearl/6.jpg",
+      "images/nike-tiempo-legend-10-pearl/7.jpg",
+      "images/nike-tiempo-legend-10-pearl/8.jpg",
+      "images/nike-tiempo-legend-10-pearl/9.jpg"
+    ]
   },
 
   {
@@ -485,7 +558,18 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/nike-tiempo-legend-9-montebelluna/1.jpg"]
+    images: [
+      "images/nike-tiempo-legend-9-montebelluna/1.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/2.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/3.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/4.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/5.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/6.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/7.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/8.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/9.jpg",
+      "images/nike-tiempo-legend-9-montebelluna/10.jpg"
+    ]
   },
 
   {
@@ -515,7 +599,19 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/nike-tiempo-legend-5-white-volt/1.jpg"]
+    images: [
+      "images/nike-tiempo-legend-5-white-volt/1.jpg",
+      "images/nike-tiempo-legend-5-white-volt/2.jpg",
+      "images/nike-tiempo-legend-5-white-volt/3.jpg",
+      "images/nike-tiempo-legend-5-white-volt/4.jpg",
+      "images/nike-tiempo-legend-5-white-volt/5.jpg",
+      "images/nike-tiempo-legend-5-white-volt/6.jpg",
+      "images/nike-tiempo-legend-5-white-volt/7.jpg",
+      "images/nike-tiempo-legend-5-white-volt/8.jpg",
+      "images/nike-tiempo-legend-5-white-volt/9.jpg",
+      "images/nike-tiempo-legend-5-white-volt/10.jpg",
+      "images/nike-tiempo-legend-5-white-volt/11.jpg"
+    ]
   }
 
 ];
