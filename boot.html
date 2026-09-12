@@ -35,7 +35,9 @@
 <div class="lightbox" id="lightbox" hidden>
   <button class="lightbox__close" id="lbClose" aria-label="Close"></button>
   <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous image"></button>
-  <img id="lbImg" alt="">
+  <!-- transparent placeholder: without a src this ships as a broken image,
+       which is invisible here but shows up in any page audit -->
+  <img id="lbImg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
   <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next image"></button>
 </div>
 
