@@ -3,22 +3,31 @@
    ============================================================ */
 
 :root {
-  --navy: #0b1c3f;
-  --navy-deep: #050f24;
-  --ink: #12161f;
-  --ink-soft: #5a6474;
-  --line: #e3e6ec;
-  --line-soft: #eef0f4;
+  /* Mizuno's brand palette is a single colour: blue #001489, chosen in 1993
+     to stand for confidence. Everything blue below is that value or a tint
+     of it, so the site never invents a second brand colour. */
+  --mizuno: #001489;
+  --mizuno-deep: #000b4d;   /* pressed states, lightbox ground */
+  --mizuno-lift: #2b44b5;   /* hover, one step up from the brand blue */
+  --mizuno-glow: #3d5ce0;   /* the hero's light source only */
+  --mizuno-soft: #e8eaf6;   /* tinted surface: focus rings, K-Leather badge */
+
+  /* The one non-Mizuno colour, and it earns its place: hinomaru red marks
+     the pairs actually built in Japan. */
+  --hinomaru: #bc002d;
+  --hinomaru-soft: #fdeaee;
+
+  --ink: #14161f;
+  --ink-soft: #5a6070;
+  --line: #e2e4ec;
+  --line-soft: #eef0f5;
   --paper: #ffffff;
-  --ground: #f6f7f9;
-  --accent: #0057ff;
-  --accent-soft: #e8f0ff;
-  --red: #d8232a;
+  --ground: #f6f7fa;
 
   --max: 1400px;
   --radius: 4px;
-  --shadow-sm: 0 1px 2px rgba(11, 28, 63, .06);
-  --shadow-md: 0 8px 30px rgba(11, 28, 63, .10);
+  --shadow-sm: 0 1px 2px rgba(0, 20, 137, .07);
+  --shadow-md: 0 8px 30px rgba(0, 20, 137, .12);
 
   --sans: "Helvetica Neue", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
@@ -85,7 +94,7 @@ button { font: inherit; cursor: pointer; }
   flex: none;
   display: grid;
   place-items: center;
-  background: var(--navy);
+  background: var(--mizuno);
   color: #fff;
   border-radius: 50%;
 }
@@ -111,7 +120,7 @@ button { font: inherit; cursor: pointer; }
 /* ------------------------------------------------- hero */
 
 .hero {
-  background: var(--navy);
+  background: var(--mizuno);
   color: #fff;
   padding: 64px 0 68px;
   position: relative;
@@ -126,7 +135,7 @@ button { font: inherit; cursor: pointer; }
   width: 460px;
   height: 460px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, rgba(0, 87, 255, .38), transparent 65%);
+  background: radial-gradient(circle at 30% 30%, var(--mizuno-glow), transparent 65%);
   pointer-events: none;
 }
 
@@ -189,9 +198,9 @@ button { font: inherit; cursor: pointer; }
 }
 
 .search input:focus {
-  border-color: var(--accent);
+  border-color: var(--mizuno);
   background: var(--paper);
-  box-shadow: 0 0 0 3px var(--accent-soft);
+  box-shadow: 0 0 0 3px var(--mizuno-soft);
 }
 
 .search svg {
@@ -223,8 +232,8 @@ button { font: inherit; cursor: pointer; }
 }
 
 .select select:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-soft);
+  border-color: var(--mizuno);
+  box-shadow: 0 0 0 3px var(--mizuno-soft);
 }
 
 .select::after {
@@ -263,8 +272,8 @@ button { font: inherit; cursor: pointer; }
 .chip:hover { border-color: var(--ink-soft); color: var(--ink); }
 
 .chip[aria-pressed="true"] {
-  background: var(--navy);
-  border-color: var(--navy);
+  background: var(--mizuno);
+  border-color: var(--mizuno);
   color: #fff;
 }
 
@@ -298,7 +307,7 @@ button { font: inherit; cursor: pointer; }
   background: none;
   padding: 0;
   font-size: 13px;
-  color: var(--accent);
+  color: var(--mizuno);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -367,7 +376,7 @@ button { font: inherit; cursor: pointer; }
   font-weight: 700;
   padding: 5px 9px;
   border-radius: 2px;
-  background: var(--navy);
+  background: var(--mizuno);
   color: #fff;
 }
 
@@ -431,8 +440,8 @@ button { font: inherit; cursor: pointer; }
   white-space: nowrap;
 }
 
-.tag--mij { background: #fdecec; color: var(--red); font-weight: 600; }
-.tag--k { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.tag--mij { background: var(--hinomaru-soft); color: var(--hinomaru); font-weight: 600; }
+.tag--k { background: var(--mizuno-soft); color: var(--mizuno); font-weight: 600; }
 
 /* ------------------------------------------------- placeholder art */
 
@@ -446,7 +455,7 @@ button { font: inherit; cursor: pointer; }
   position: relative;
 }
 
-.ph svg { width: 54%; max-width: 190px; opacity: .3; color: var(--navy); }
+.ph svg { width: 54%; max-width: 190px; opacity: .3; color: var(--mizuno); }
 
 .ph__label {
   position: absolute;
@@ -490,7 +499,7 @@ button { font: inherit; cursor: pointer; }
   gap: 8px;
 }
 
-.crumbs a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.crumbs a:hover { color: var(--mizuno); text-decoration: underline; text-underline-offset: 3px; }
 .crumbs span { opacity: .5; }
 
 .detail {
@@ -580,7 +589,7 @@ button { font: inherit; cursor: pointer; }
 
 .thumb img { width: 100%; height: 100%; object-fit: contain; padding: 5px; }
 .thumb:hover { border-color: var(--line); }
-.thumb[aria-current="true"] { border-color: var(--navy); }
+.thumb[aria-current="true"] { border-color: var(--mizuno); }
 
 .gallery__note {
   margin: 12px 0 0;
@@ -679,12 +688,12 @@ button { font: inherit; cursor: pointer; }
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--accent);
+  background: var(--mizuno);
 }
 
 .notes {
   background: var(--ground);
-  border-left: 3px solid var(--navy);
+  border-left: 3px solid var(--mizuno);
   border-radius: 0 var(--radius) var(--radius) 0;
   padding: 20px 22px;
   font-size: 14.5px;
@@ -715,7 +724,7 @@ button { font: inherit; cursor: pointer; }
   transition: all .15s ease;
 }
 
-.pager a:hover { border-color: var(--navy); box-shadow: var(--shadow-sm); }
+.pager a:hover { border-color: var(--mizuno); box-shadow: var(--shadow-sm); }
 .pager a.is-next { flex-direction: row-reverse; text-align: right; }
 
 .pager__thumb {
@@ -743,7 +752,7 @@ button { font: inherit; cursor: pointer; }
   position: fixed;
   inset: 0;
   z-index: 200;
-  background: rgba(5, 15, 36, .95);
+  background: rgba(0, 11, 77, .96);
   display: grid;
   place-items: center;
   padding: 40px;
@@ -824,4 +833,42 @@ button { font: inherit; cursor: pointer; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+}
+
+/* ============================================================
+   BRAND POLISH
+   Hover and focus states, all drawn from the single Mizuno blue.
+   ============================================================ */
+
+.results__clear:hover { color: var(--mizuno-lift); }
+
+.chip[aria-pressed="true"]:hover {
+  background: var(--mizuno-deep);
+  border-color: var(--mizuno-deep);
+}
+
+.card:hover { border-color: var(--mizuno-soft); }
+
+.stage__nav:hover {
+  border-color: var(--mizuno);
+  color: var(--mizuno);
+}
+
+.thumb:hover { border-color: var(--mizuno-soft); }
+
+.pager a:hover .pager__name { color: var(--mizuno); }
+
+/* Keyboard users get an unmistakable ring; mouse users never see it. */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--mizuno);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--mizuno);
+  color: #fff;
 }

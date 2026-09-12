@@ -17,8 +17,36 @@ No build step, no dependencies. Open `index.html` in a browser and it works.
 python -m http.server 8000
 ```
 
-**On the web** — push to GitHub, then Settings → Pages → deploy from `main`,
-root folder. The site is live at `https://<user>.github.io/<repo>/`.
+**On the web (GitHub Pages)**
+
+1. Create an empty repository on GitHub named `Mizuno-Boot-Collection`. Do
+   not let GitHub add a README, licence or `.gitignore`; this repo already
+   has its own history.
+
+2. Push:
+
+   ```
+   git push -u origin main
+   ```
+
+   The `origin` remote is already set to
+   `https://github.com/dylanl280/Mizuno-Boot-Collection.git`. If you name the
+   repository something else, point it there first:
+
+   ```
+   git remote set-url origin https://github.com/<user>/<repo>.git
+   ```
+
+3. In the repository, open **Settings → Pages**, set **Source** to
+   *Deploy from a branch*, pick branch `main` and folder `/ (root)`, and
+   save. The first build takes a minute or two.
+
+The site then lives at `https://<user>.github.io/<repo>/`.
+
+Pages serves a project site from a subdirectory rather than the domain root,
+so every path in this repo is relative and none begin with a slash. The
+empty `.nojekyll` file tells Pages to publish the files as they are instead
+of running them through Jekyll.
 
 ## Adding a pair
 
@@ -108,15 +136,39 @@ aspect ratios are fine.
 Filter state is written to the URL, so any view you land on is a link you can
 send to someone.
 
+## Colour
+
+Mizuno's brand palette is a single colour: blue **#001489**, unchanged since
+1993 and chosen to stand for confidence. The site holds to that. Every blue
+on the page is either that exact value or a tint of it, declared once at the
+top of [`assets/css/styles.css`](assets/css/styles.css):
+
+| Token | Value | Used for |
+|---|---|---|
+| `--mizuno` | `#001489` | Hero, Runbird mark, active filters, links, badges |
+| `--mizuno-deep` | `#000b4d` | Pressed chips, the lightbox ground |
+| `--mizuno-lift` | `#2b44b5` | Hover, one step up from the brand blue |
+| `--mizuno-glow` | `#3d5ce0` | The hero's light source, nothing else |
+| `--mizuno-soft` | `#e8eaf6` | Focus rings and the K-Leather badge |
+| `--hinomaru` | `#bc002d` | Made in Japan badge only |
+
+`--hinomaru` is the one colour that is not Mizuno's. It is the red of the
+Japanese flag, and it marks the pairs actually built in Japan. Everything
+else on the page is ink, rule and paper greys.
+
+Change `--mizuno` and the whole site follows.
+
 ## Layout
 
 ```
 index.html          the grid
 boot.html           the detail page, reads ?id= from the URL
 data/boots.js       all collection data — the only file you need to edit
-assets/css/         styles
+assets/css/         styles, with the colour tokens at the top
 assets/js/          common helpers, grid logic, detail-page gallery
+assets/favicon.svg  the Runbird on a Mizuno-blue tile
 images/<id>/        photographs, one folder per pair
+.nojekyll           tells GitHub Pages to publish the files untouched
 ```
 
 ## Sources
