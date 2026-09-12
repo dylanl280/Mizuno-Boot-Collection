@@ -202,8 +202,7 @@ window.BOOTS = [
     images: [
       "images/mizuno-morelia-neo-iv-beta-elite-mugen/1.jpg",
       "images/mizuno-morelia-neo-iv-beta-elite-mugen/2.jpg",
-      "images/mizuno-morelia-neo-iv-beta-elite-mugen/3.jpg",
-      "images/mizuno-morelia-neo-iv-beta-elite-mugen/4.jpg"
+      "images/mizuno-morelia-neo-iv-beta-elite-mugen/3.jpg"
     ]
   },
 
@@ -353,13 +352,7 @@ window.BOOTS = [
       "images/mizuno-morelia-m8-japan-archive/2.jpg",
       "images/mizuno-morelia-m8-japan-archive/3.jpg",
       "images/mizuno-morelia-m8-japan-archive/4.jpg",
-      "images/mizuno-morelia-m8-japan-archive/5.jpg",
-      "images/mizuno-morelia-m8-japan-archive/6.jpg",
-      "images/mizuno-morelia-m8-japan-archive/7.jpg",
-      "images/mizuno-morelia-m8-japan-archive/8.jpg",
-      "images/mizuno-morelia-m8-japan-archive/9.jpg",
-      "images/mizuno-morelia-m8-japan-archive/10.jpg",
-      "images/mizuno-morelia-m8-japan-archive/11.jpg"
+      "images/mizuno-morelia-m8-japan-archive/5.jpg"
     ]
   },
 
@@ -437,8 +430,7 @@ window.BOOTS = [
     images: [
       "images/mizuno-wave-cup-ss-japan/1.jpg",
       "images/mizuno-wave-cup-ss-japan/2.jpg",
-      "images/mizuno-wave-cup-ss-japan/3.jpg",
-      "images/mizuno-wave-cup-ss-japan/4.jpg"
+      "images/mizuno-wave-cup-ss-japan/3.jpg"
     ]
   },
 
