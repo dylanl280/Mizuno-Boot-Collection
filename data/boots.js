@@ -162,7 +162,17 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-neo-iv-japan-unity-sky/1.jpg"]
+    images: [
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/1.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/2.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/3.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/4.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/5.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/6.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/7.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/8.jpg",
+      "images/mizuno-morelia-neo-iv-japan-unity-sky/9.jpg"
+    ]
   },
 
   {
@@ -229,7 +239,13 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-ii-dna-japan-galaxy/1.webp"]
+    images: [
+      "images/mizuno-morelia-ii-dna-japan-galaxy/1.jpg",
+      "images/mizuno-morelia-ii-dna-japan-galaxy/2.jpg",
+      "images/mizuno-morelia-ii-dna-japan-galaxy/3.jpg",
+      "images/mizuno-morelia-ii-dna-japan-galaxy/4.jpg",
+      "images/mizuno-morelia-ii-dna-japan-galaxy/5.jpg"
+    ]
   },
 
   {
@@ -298,7 +314,13 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-m8-japan-pearl-white/1.png"]
+    images: [
+      "images/mizuno-morelia-m8-japan-pearl-white/1.jpg",
+      "images/mizuno-morelia-m8-japan-pearl-white/2.jpg",
+      "images/mizuno-morelia-m8-japan-pearl-white/3.jpg",
+      "images/mizuno-morelia-m8-japan-pearl-white/4.jpg",
+      "images/mizuno-morelia-m8-japan-pearl-white/5.jpg"
+    ]
   },
 
   {
@@ -328,7 +350,19 @@ window.BOOTS = [
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-morelia-m8-japan-archive/1.jpg"]
+    images: [
+      "images/mizuno-morelia-m8-japan-archive/1.jpg",
+      "images/mizuno-morelia-m8-japan-archive/2.jpg",
+      "images/mizuno-morelia-m8-japan-archive/3.jpg",
+      "images/mizuno-morelia-m8-japan-archive/4.jpg",
+      "images/mizuno-morelia-m8-japan-archive/5.jpg",
+      "images/mizuno-morelia-m8-japan-archive/6.jpg",
+      "images/mizuno-morelia-m8-japan-archive/7.jpg",
+      "images/mizuno-morelia-m8-japan-archive/8.jpg",
+      "images/mizuno-morelia-m8-japan-archive/9.jpg",
+      "images/mizuno-morelia-m8-japan-archive/10.jpg",
+      "images/mizuno-morelia-m8-japan-archive/11.jpg"
+    ]
   },
 
   /* ================================================================ MIZUNO / ALPHA */
@@ -380,7 +414,7 @@ window.BOOTS = [
     line: "Wave Cup",
     model: "Wave Cup SS",
     tier: "Made in Japan",
-    colorway: "White / Red / Blue",
+    colorway: "Super White Pearl / Red",
     year: 2025,
     surface: ["FG"],
     weightG: 235,
@@ -395,13 +429,19 @@ window.BOOTS = [
       "Mizuno Wave plate in the heel to limit lateral movement and absorb shock",
       "Kangaroo leather beneath the Runbird line, not just around it",
       "Stud placement derived from movement analysis",
+      "Red line colour carried over from the 2012 Wave Cup SS",
       "Handcrafted in Japan"
     ],
-    description: "The heaviest boot in the collection and unapologetic about it. Full kangaroo leather, wave plate in the heel, built the way Mizuno built boots before weight became the headline number. A crest-shaped badge sits at the throat with the Runbird in blue and three red stars, and the insole carries Wave Cup and Made in Japan in gold. Style code P1GA2439.",
+    description: "The boot Shinji Okazaki wore in the last game of his career, and the heaviest pair in the collection by some way. Full kangaroo leather, wave plate in the heel, built the way Mizuno built boots before weight became the headline number. The red line is carried over from the 2012 Wave Cup SS, keeping the Samurai Soul idea intact. A crest-shaped badge sits at the throat with the Runbird in blue and three red stars, and the insole reads Wave Cup and Made in Japan in gold. Style code P1GA2439.",
     notes: "",
     owned: true,
     stockPhoto: true,
-    images: ["images/mizuno-wave-cup-ss-japan/1.webp"]
+    images: [
+      "images/mizuno-wave-cup-ss-japan/1.jpg",
+      "images/mizuno-wave-cup-ss-japan/2.jpg",
+      "images/mizuno-wave-cup-ss-japan/3.jpg",
+      "images/mizuno-wave-cup-ss-japan/4.jpg"
+    ]
   },
 
   {

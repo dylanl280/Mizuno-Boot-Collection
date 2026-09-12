@@ -77,11 +77,12 @@ Every pair is currently flagged `stockPhoto: true`, which prints a small
 caption under the gallery. When you replace a boot's photos with your own,
 set that flag to `false` and the caption disappears.
 
-Most pairs carry a full multi-angle set pulled from the manufacturer or a
-retailer. Four do not, because no clean cut-out of that exact colourway is
-published anywhere western retailers reach: the Morelia DNA Japan, both
-Morelia M8s, and the Wave Cup SS Japan. Those keep a single shot until
-better photography exists, or until you take it.
+Every pair now carries a multi-angle set of manufacturer or retailer
+cut-outs on white. Sources were Mizuno's own CDN for the current Morelia,
+Morelia Neo and Alpha models, nike.com for the Ligera Pro, Unisport for the
+Tiempos and the Wave Cup Legend, and the Japanese and Singaporean
+specialists for the Japan-market releases the western retailers never
+carried.
 
 **Shot list that works well**, roughly the order a retailer uses: lateral
 (outside) profile, medial (inside) profile, top-down on the upper, heel,
