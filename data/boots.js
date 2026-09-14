@@ -159,7 +159,7 @@ window.BOOTS = [
       "24-hour lasting process"
     ],
     description: "Unity Sky, the celeste run of the Neo IV Japan, and the tongued build like the two Classic pairs. Gold detailing at the heel and across a pale blue soleplate, with an ultramarine collar lining. The colourway that got the most attention of the three. Style code P1GA263025.",
-    notes: "I ordered these from CleatCorner because they are one of my favorite colorways the blue one them is just eye catching. I am currently wearing these the most and have no complaints at all.",
+    notes: "I ordered these from CleatCorner because they are one of my favorite colorways the blue on them is just eye catching. I am currently wearing these the most and have no complaints at all.",
     owned: true,
     stockPhoto: true,
     images: [
